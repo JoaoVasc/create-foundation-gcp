@@ -1,0 +1,36 @@
+# create-foundation-gcp
+
+CLI tool to create a GCP foundation structure with folders, projects, and required APIs enabled.
+
+## Overview
+
+This tool helps you quickly set up a Google Cloud Platform (GCP) foundation with the necessary folders, projects, and APIs enabled for a given company. The structure includes separate environments for development, UAT, production, and common resources.
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/JoaoVasc/create-foundation-gcp.git
+   cd create-foundation-gcp
+
+2. **Install the Package Globally:**
+
+  ```bash
+      npm install -g .
+      npx github:JoaoVasc/create-foundation-gcp <company_name>
+
+3 **Directory Struture**
+    foundation-<company_name>
+    ├── modules
+    │   ├── folder
+    │   │   └── main.tf
+    │   ├── project
+    │   │   └── main.tf
+    ├── common
+    │   └── prj-<company_name>-host
+    ├── dev
+    ├── hml
+    ├── prod
+    ├── foundation.tf
+    └── variables.tf
