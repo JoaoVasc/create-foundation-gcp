@@ -1,0 +1,14 @@
+{
+  "name": "create-foundation-gcp",
+  "version": "1.0.0",
+  "description": "CLI tool to create GCP foundation structure",
+  "main": "index.js",
+  "bin": {
+    "create-foundation-gcp": "./bin/create-foundation.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Vasconcelos DevOps",
+  "license": "ISC"
+}
