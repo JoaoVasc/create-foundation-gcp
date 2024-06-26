@@ -91,6 +91,8 @@ variable "project_name" {
   type        = string
 }
 
+#teste
+
 variable "billing_account" {
   description = "Sua Billing Account"
   type        = string
